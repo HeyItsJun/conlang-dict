@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Lora Regular';
+    src:
+        local("Lora-Regular");
+}
+
+* {
+    font-family: 'Lora';
+    text-align: center;
+}
+
+/* don't touch these. else i'm cutting your hands. */
+html {
+    background: #d6c9bc;
+    color: #6a440b;
+}
