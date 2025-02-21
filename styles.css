@@ -6,11 +6,11 @@
 
 * {
     color: #6a440b;
-    font-family: 'Lora';
+    font-family: 'Lora Regular';
     text-align: center;
 }
 
-/* don't touch these. else i'm cutting your hands. */
+/* don't touch these (css colours). else i'm cutting your hands. */
 html {
     background: #d6c9bc;
     height: 100%;
