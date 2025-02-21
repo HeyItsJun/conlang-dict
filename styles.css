@@ -5,17 +5,37 @@
 }
 
 * {
-    font-family: 'Lora';
+    color: #6a440b;
+    font-family: 'Lora Regular';
     text-align: center;
 }
 
-/* don't touch these. else i'm cutting your hands. */
+/* don't touch these (css colours). else i'm cutting your hands. */
 html {
     background: #d6c9bc;
-    color: #6a440b;
+    height: 100%;
 }
 
 #pagename {
     font-style: italic;
     text-shadow: 2px 2px #c28f6d;
+}
+
+#searchbar {
+    border-radius: 5px;
+    height: 25px;
+    width: 60%;
+}
+
+#searchbar:focus {
+    outline: 2px solid #c28f6d;
+}
+
+#results {
+    background-color: #f1ebe5;
+    border-radius: 3px;
+}
+
+#results:hover {
+    background-color: #d2ac93;
 }
