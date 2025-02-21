@@ -1,4 +1,4 @@
-let placeholder = ["*raises right hand*", "traralarara~", "*instant falling asleep*"];
+let placeholder = ["*raises right hand*", "traralarara~", "*instant falling asleep*", "*becomes prensayitas*"];
 
 function search() {
     const results = document.getElementById("results");
