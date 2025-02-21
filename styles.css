@@ -14,3 +14,7 @@ html {
     background: #d6c9bc;
     color: #6a440b;
 }
+
+h1 {
+    font-style: italic;
+}
