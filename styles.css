@@ -15,6 +15,7 @@ html {
     color: #6a440b;
 }
 
-h1 {
+#pagename {
     font-style: italic;
+    text-shadow: 2px 2px #c28f6d;
 }
