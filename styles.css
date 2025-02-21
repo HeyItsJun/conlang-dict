@@ -5,6 +5,7 @@
 }
 
 * {
+    color: #6a440b;
     font-family: 'Lora';
     text-align: center;
 }
@@ -12,10 +13,24 @@
 /* don't touch these. else i'm cutting your hands. */
 html {
     background: #d6c9bc;
-    color: #6a440b;
+    height: 100%;
 }
 
 #pagename {
     font-style: italic;
     text-shadow: 2px 2px #c28f6d;
+}
+
+#searchbar {
+    border-radius: 5px;
+}
+
+#searchbar:focus {
+    outline: 2px solid #c28f6d;
+}
+
+#results {
+    background-color: #f1ebe5;
+    border-radius: 3px;
+    /* border: 10px solid black; */
 }
