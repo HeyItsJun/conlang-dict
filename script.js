@@ -1,6 +1,6 @@
-let placeholder = ["*raises right hand*", "traralarara~", "*instant falling asleep*"];
+let placeholder = ["*raises right hand*", "traralarara~", "*instant falling asleep*", "*becomes prensayitas*"];
 
-function search() {
+function dsearch() {
     const results = document.getElementById("results");
     results.innerHTML = ""; // empty (previous) results
     const currentValue = document.getElementById("searchbar").value.toLowerCase();  
