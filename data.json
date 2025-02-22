@@ -5,7 +5,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "categ": ["categ"],
+    "categ": "categ",
     "related": ["relatedWord"]
   },
   {
@@ -14,7 +14,7 @@
     "description": null,
     "register": null,
     "en_translation": "soul, psyche, essence, core.",
-    "categ": ["noun"],
+    "categ": "noun",
     "related": ["relatedWord"]
   },
   {
@@ -23,7 +23,7 @@
     "description": null,
     "register": null,
     "en_translation": "good, well",
-    "categ": ["adverb"],
+    "categ": "adverb",
     "related": null
   },
   {
@@ -32,7 +32,7 @@
     "description": null,
     "register": null,
     "en_translation": "bloody, gory, brutal, devastating, not clean",
-    "categ": ["adjective"],
+    "categ": "adjective",
     "related": ["relatedWord"]
   },
   {
@@ -41,7 +41,7 @@
     "description": "a reality or a fact (not imagined) that is devastating.",
     "register": null,
     "en_translation": null,
-    "categ": ["noun"],
+    "categ": "noun",
     "related": ["relatedWord"]
   },
   {
@@ -50,7 +50,7 @@
     "description": null,
     "register": null,
     "en_translation": "ascension, promotion.",
-    "categ": ["noun"],
+    "categ": "noun",
     "related": ["relatedWord"]
   },
   {
@@ -59,7 +59,7 @@
     "description": null,
     "register": null,
     "en_translation": "to be",
-    "categ": ["verb"],
+    "categ": "verb",
     "related": ["relatedWord"]
   },
   {
@@ -68,7 +68,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "warm, cosy, mellow",
-    "categ": ["adjective"],
+    "categ": "adjective",
     "related": ["baliskari"]
   },
   {
@@ -77,7 +77,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "warmth",
-    "categ": ["noun"],
+    "categ": "noun",
     "related": ["balis"]
   },
   {
@@ -86,7 +86,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "war, conflict, warfare.",
-    "categ": ["noun"],
+    "categ": "noun",
     "related": ["relatedWord"]
   },
   {
@@ -95,7 +95,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "title, epithet, nickname.",
-    "categ": ["noun"],
+    "categ": "noun",
     "related": ["relatedWord"]
   },
   {
@@ -104,7 +104,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "categ": ["categ"],
+    "categ": "categ",
     "related": ["relatedWord"]
   },
   {
@@ -113,7 +113,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "categ": ["categ"],
+    "categ": "categ",
     "related": ["relatedWord"]
   },
   {
@@ -122,7 +122,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "categ": ["categ"],
+    "categ": "categ",
     "related": ["relatedWord"]
   },
   {
@@ -131,7 +131,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "categ": ["categ"],
+    "categ": "categ",
     "related": ["relatedWord"]
   },
   {
@@ -140,7 +140,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "categ": ["categ"],
+    "categ": "categ",
     "related": ["relatedWord"]
   },
   {
@@ -149,7 +149,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "categ": ["verb"],
+    "categ": "verb",
     "related": ["centiokari"]
   },
   {
@@ -158,7 +158,7 @@
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "categ": ["noun"],
+    "categ": "noun",
     "related": ["centio"]
   }
 ]
