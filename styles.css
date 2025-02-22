@@ -36,8 +36,10 @@ html {
     background-color: #f1ebe5;
     border-collapse: collapse;
     border-radius: 3px;
+    height: 40%;
     margin-left: auto;
     margin-right: auto;
+    width: 60%;
 }
 
 #results td {
@@ -48,6 +50,8 @@ html {
 
 #results td:hover {
     background-color: #d2ac93;
-    /* padding-left: 5%;
-    padding-right: 5%; */
+    /* in-cell text spacing
+    *  padding-left: 5%;
+    *  padding-right: 5%; 
+    */
 }
