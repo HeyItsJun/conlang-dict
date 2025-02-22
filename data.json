@@ -1,74 +1,56 @@
 [
   {
     "word": "example",
-    "distinction": "",
+    "distinction": null,
     "description": "definition",
     "register": null,
     "en_translation": "translations",
-    "tags": ["categ"],
-    "related": ["relatedWord"]
-  },
-  {
-    "word": "*raises right hand*",
-    "distinction": "",
-    "description": "self explanatory",
-    "register": null,
-    "en_translation": "hello, comrade",
-    "tags": ["categ"],
-    "related": ["relatedWord"]
-  },
-  {
-    "word": "*instant falling asleep*",
-    "distinction": "",
-    "description": "happens when sleepy",
-    "register": null,
-    "en_translation": null,
-    "tags": ["categ"],
+    "categ": ["categ"],
     "related": ["relatedWord"]
   },
   {
     "word": "aida",
-    "distinction": "",
+    "distinction": null,
     "description": null,
     "register": null,
     "en_translation": "soul, psyche, essence, core.",
-    "tags": ["noun"],
+    "categ": ["noun"],
     "related": ["relatedWord"]
   },
   {
     "word": "aikoda",
-    "distinction": "",
+    "distinction": null,
     "description": null,
     "register": null,
     "en_translation": "good, well",
-    "tags": ["adverb"],
+    "categ": ["adverb"],
     "related": null
   },
   {
     "word": "akaeri",
-    "distinction": "",
+    "distinction": null,
     "description": null,
     "register": null,
     "en_translation": "bloody, gory, brutal, devastating, not clean",
-    "tags": ["adjective"],
+    "categ": ["adjective"],
     "related": ["relatedWord"]
   },
   {
     "word": "akavhekari",
-    "distinction": "",
+    "distinction": null,
     "description": "a reality or a fact (not imagined) that is devastating.",
     "register": null,
     "en_translation": null,
-    "tags": ["noun"],
+    "categ": ["noun"],
     "related": ["relatedWord"]
   },
   {
     "word": "asderu",
-    "distinction": "",
+    "distinction": null,
     "description": null,
     "register": null,
     "en_translation": "ascension, promotion.",
-    "tags": ["noun"],
+    "categ": ["noun"],
     "related": ["relatedWord"]
   },
   {
@@ -77,16 +59,106 @@
     "description": null,
     "register": null,
     "en_translation": "to be",
-    "tags": ["verb"],
+    "categ": ["verb"],
     "related": ["relatedWord"]
   },
   {
     "word": "balis",
-    "distinction": "",
+    "distinction": null,
     "description": "definition",
     "register": null,
     "en_translation": "warm, cosy, mellow",
-    "tags": ["adjective"],
+    "categ": ["adjective"],
+    "related": ["baliskari"]
+  },
+  {
+    "word": "baliskari",
+    "distinction": null,
+    "description": "definition",
+    "register": null,
+    "en_translation": "warmth",
+    "categ": ["noun"],
+    "related": ["balis"]
+  },
+  {
+    "word": "beirum",
+    "distinction": null,
+    "description": "definition",
+    "register": null,
+    "en_translation": "war, conflict, warfare.",
+    "categ": ["noun"],
     "related": ["relatedWord"]
+  },
+  {
+    "word": "blakari",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "title, epithet, nickname.",
+    "categ": ["noun"],
+    "related": ["relatedWord"]
+  },
+  {
+    "word": "c’ätire",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "translations",
+    "categ": ["categ"],
+    "related": ["relatedWord"]
+  },
+  {
+    "word": "c’ügo",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "translations",
+    "categ": ["categ"],
+    "related": ["relatedWord"]
+  },
+  {
+    "word": "cc’äderi",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "translations",
+    "categ": ["categ"],
+    "related": ["relatedWord"]
+  },
+  {
+    "word": "cc’ai",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "translations",
+    "categ": ["categ"],
+    "related": ["relatedWord"]
+  },
+  {
+    "word": "cc’e",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "translations",
+    "categ": ["categ"],
+    "related": ["relatedWord"]
+  },
+  {
+    "word": "centio",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "translations",
+    "categ": ["verb"],
+    "related": ["centiokari"]
+  },
+  {
+    "word": "centiokari",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "translations",
+    "categ": ["noun"],
+    "related": ["centio"]
   }
 ]
