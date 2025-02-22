@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Lora Regular';
     src:
-        local("Lora-Regular");
+        local("Lora-Regular"),
+        url("./resources/fonts/Lora-Regular.ttf");
 }
 
 * {
