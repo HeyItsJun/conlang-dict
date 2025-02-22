@@ -1,18 +1,30 @@
-let placeholder = ["*raises right hand*", "traralarara~", "*instant falling asleep*", "*becomes prensayitas*"];
+/* PARAMETERS */
+const relativePathToDatabase = "./data.json"; // defines where the file is located
+const tableId = "results"; // defines the id used to refer to the output table
+const searchBarId = "searchbar"; // defines the id used to refer to the search bar
+const fieldToSearchBy = "word"; // defines the JSON field for entry filtering
+/* ---------- */
+
+let entries = null;
+fetch(relativePathToDatabase)
+    .then(response => response.json())
+    .then(data => dsearch(entries = data))
+    .catch(error => console.error(error));
+
+function load(data) {
+    const table = document.getElementById(tableId);
+    table.innerHTML = ""; // empty (previous) results
+    data.forEach(entry => table.insertRow().insertCell().innerHTML = toString(entry));
+}
 
 function dsearch() {
-    const results = document.getElementById("results");
-    results.innerHTML = ""; // empty (previous) results
-    const currentValue = document.getElementById("searchbar").value.toLowerCase();  
-    if (currentValue === "") {
-        results.innerHTML = ""; 
-    }
-    else {
-        placeholder
-            .filter(e => e.toLowerCase().includes(currentValue))
-            .forEach(element => {
-                const dictEntry = results.insertRow().insertCell();
-                dictEntry.innerHTML = element || "";
-            });
-    }
+    const input = document.getElementById(searchBarId).value;
+    load(input !== "" ? entries.filter(entry => (entry[fieldToSearchBy] || "")
+        .toLowerCase()
+        .includes(input.toLowerCase())) : []);
+}
+
+/* returns a string containing the format that an entry should have */
+function toString(entry) {
+    return [entry.word, "meaning: ", entry.description, "english: ", entry.en_translation, "tags: ", entry.tags].join("<br>");
 }

@@ -1,157 +1,92 @@
 [
   {
-    "word": "example entry",
-    "description": "Lorem Ipsum dolor sit amet",
-    "en_translation": "example entry but its translated to english"
+    "word": "example",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "translations",
+    "tags": ["categ"],
+    "related": ["relatedWord"]
   },
   {
     "word": "*raises right hand*",
+    "distinction": "",
     "description": "self explanatory",
-    "en_translation": "hello, comrade"
+    "register": null,
+    "en_translation": "hello, comrade",
+    "tags": ["categ"],
+    "related": ["relatedWord"]
   },
   {
     "word": "*instant falling asleep*",
+    "distinction": "",
     "description": "happens when sleepy",
-    "en_translation": null
+    "register": null,
+    "en_translation": null,
+    "tags": ["categ"],
+    "related": ["relatedWord"]
+  },
+  {
+    "word": "aida",
+    "distinction": "",
+    "description": null,
+    "register": null,
+    "en_translation": "soul, psyche, essence, core.",
+    "tags": ["noun"],
+    "related": ["relatedWord"]
+  },
+  {
+    "word": "aikoda",
+    "distinction": "",
+    "description": null,
+    "register": null,
+    "en_translation": "good, well",
+    "tags": ["adverb"],
+    "related": null
   },
   {
     "word": "akaeri",
-    "description": "not clean",
-    "en_translation": "bloody, gory, brutal, devastating."
+    "distinction": "",
+    "description": null,
+    "register": null,
+    "en_translation": "bloody, gory, brutal, devastating, not clean",
+    "tags": ["adjective"],
+    "related": ["relatedWord"]
   },
   {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
+    "word": "akavhekari",
+    "distinction": "",
+    "description": "a reality or a fact (not imagined) that is devastating.",
+    "register": null,
+    "en_translation": null,
+    "tags": ["noun"],
+    "related": ["relatedWord"]
   },
   {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
+    "word": "asderu",
+    "distinction": "",
+    "description": null,
+    "register": null,
+    "en_translation": "ascension, promotion.",
+    "tags": ["noun"],
+    "related": ["relatedWord"]
   },
   {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
+    "word": "avhero",
+    "distinction": "non-living",
+    "description": null,
+    "register": null,
+    "en_translation": "to be",
+    "tags": ["verb"],
+    "related": ["relatedWord"]
   },
   {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
-  },
-  {
-    "word": "example",
-    "description": "example",
-    "en_translation": "example"
+    "word": "balis",
+    "distinction": "",
+    "description": "definition",
+    "register": null,
+    "en_translation": "warm, cosy, mellow",
+    "tags": ["adjective"],
+    "related": ["relatedWord"]
   }
 ]
