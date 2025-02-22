@@ -34,9 +34,19 @@ html {
 
 #results {
     background-color: #f1ebe5;
+    border-collapse: collapse;
     border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#results:hover {
+#results td {
+    border: 1px solid #4f3105;
+    text-align: justify;
+}
+
+#results td:hover {
     background-color: #d2ac93;
+    padding-left: 10%;
+    padding-right: 10%;
 }
