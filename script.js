@@ -1,12 +1,12 @@
 /* PARAMETERS */
-const relativePathToDatabase = "./data.json"; // defines where the file is located
+const relDataPath = "./data.json"; // defines where the file is located
 const tableId = "results"; // defines the id used to refer to the output table
 const searchBarId = "searchbar"; // defines the id used to refer to the search bar
 const fieldToSearchBy = "word"; // defines the JSON field for entry filtering
 /* ---------- */
 
 let entries = null;
-fetch(relativePathToDatabase)
+fetch(relDataPath)
     .then(response => response.json())
     .then(data => dsearch(entries = data))
     .catch(error => console.error(error));
