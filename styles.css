@@ -56,7 +56,15 @@ html {
     */
 }
 
-.allglyphs {
+/* .allglyphs {
     height: 100%;
     width: 75%;
+} */
+
+#sakoen {
+    width: 55%;
+}
+
+#aerende {
+    width: 35%;
 }
