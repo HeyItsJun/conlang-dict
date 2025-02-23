@@ -4,27 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sakoen</title>
+    <title>Sakoen Glossary</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./resources/icons/icon.ico">
 </head>
 
 <body>
-    <h1 id="pagename">Sakoen Dictionary</h1>
-    <input type="button" value="Main page" onclick="window.open('index.html', '_self')">
+    <h1 id="pagename">Sakoen Glossary</h1>
+    <input type="button" value="Main page" onclick="window.open('./index.html', '_self')">
     <label for="selector"></label>
     <select id="selector">
         <option value="distinction">Distinction</option>
-        <option value="formality">Formality</option>
+        <option value="register">Register</option>
         <option value="categ">Category</option>
     </select>
     <br>
     <br>
     <label for="searchbar"></label>
-    <input id="searchbar" type="search" oninput="gsearch()" placeholder="*rayitas giggles*" autofocus> <br>
+    <input id="searchbar" type="search" oninput="writeTable(gsearch, 'results')" placeholder="*rayitas giggles*" autofocus> <br>
     <br>
     <table id="results"></table>
-    <script src="gscript.js"></script>
+    <script src="JSONToTable.js"></script>
+    <script>
+        function writeTable(filter, tableId) {
+            const table = document.getElementById(tableId);
+            const entries = filter instanceof Function ? filter(retrieveEntries()) : retrieveEntries();
+            table.innerHTML = "";
+            entries.forEach(entry => table.insertRow().insertCell().innerHTML = format(entry));
+        }
+
+        function format(entry) {
+            return [entry.word, "meaning: ", entry.description, "english: ", entry.engtl, "category: ", entry.categ].join("<br>");
+        }
+
+        function gsearch(entries) {
+            const field = document.getElementById("selector").value;
+            const input = document.getElementById("searchbar").value;
+            return input === "" ? entries
+            : entries.filter(entry => (entry[field] || "")
+                .toLowerCase()
+                .includes(input.toLowerCase())
+            );
+        }
+    </script>
+    <script>
+        window.onload = loadTable("./data.json", () => writeTable(null, "results"));
+    </script>
 </body>
 
 </html>
