@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -10,19 +11,22 @@
 </head>
 
 <body>
-    <h1 id="pagename">Ilakej Writing Systems</h1>
-    <input type="button" value="Main page" onclick="window.open('./index.html', '_self')">
-    <input type="button" value="Glossary" onclick="window.open('./glossary.html', '_self')">
-    <br>
-    <br>
-    <h3>Sakoen Alphabet</h2>
-    <img id="sakoen" class="allglyphs" src="./resources/images/Sakoen-glyphs-final.jpg" />
-    <br>
-    <br>
-    <h3>Aerende Syllabary</h2>
-    <img id="aerende" class="allglyphs" src="./resources/images/Aerende-glyphs-final.jpg" />
-    <br>
-    <br>
+
+<h1 id="pagename">Ilakej Writing Systems</h1>
+
+<input id="mainPageBtn" type="button" value="Main page">
+<input id="glossaryBtn" type="button" value="Glossary">
+
+<h2>Sakoen Alphabet</h2>
+<img id="sakoen" class="allglyphs" src="./resources/images/Sakoen-glyphs-final.jpg"
+     alt="Image containing the Sakoen Alphabet"/>
+
+<h2>Aerende Syllabary</h2>
+<img id="aerende" class="allglyphs" src="./resources/images/Aerende-glyphs-final.jpg"
+     alt="Table containing the Aerende Syllabary"/>
+
+<script src="wsystems.js"></script>
+
 </body>
 
 </html>
