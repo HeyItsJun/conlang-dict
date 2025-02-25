@@ -1,14 +1,5 @@
 const entries = [
     {
-        "word": "example",
-        "distinction": null,
-        "description": "definition",
-        "formality": null,
-        "engtl": "translations",
-        "categ": "categ",
-        "related": ["relatedWord"]
-    },
-    {
         "word": "aida",
         "distinction": null,
         "description": null,
@@ -65,7 +56,7 @@ const entries = [
     {
         "word": "balis",
         "distinction": null,
-        "description": "definition",
+        "description": null,
         "formality": null,
         "engtl": "warm, cosy, mellow",
         "categ": "adjective",
@@ -74,7 +65,7 @@ const entries = [
     {
         "word": "baliskari",
         "distinction": null,
-        "description": "definition",
+        "description": null,
         "formality": null,
         "engtl": "warmth",
         "categ": "noun",
@@ -83,7 +74,7 @@ const entries = [
     {
         "word": "beirum",
         "distinction": null,
-        "description": "definition",
+        "description": null,
         "formality": null,
         "engtl": "war, conflict, warfare.",
         "categ": "noun",
@@ -92,7 +83,7 @@ const entries = [
     {
         "word": "blakari",
         "distinction": "",
-        "description": "definition",
+        "description": null,
         "formality": null,
         "engtl": "title, epithet, nickname.",
         "categ": "noun",
@@ -101,63 +92,63 @@ const entries = [
     {
         "word": "c’ätire",
         "distinction": "",
-        "description": "definition",
+        "description": null,
         "formality": null,
-        "engtl": "translations",
+        "engtl": null,
         "categ": "categ",
         "related": ["relatedWord"]
     },
     {
         "word": "c’ügo",
         "distinction": "",
-        "description": "definition",
+        "description": null,
         "formality": null,
-        "engtl": "translations",
+        "engtl": null,
         "categ": "categ",
         "related": ["relatedWord"]
     },
     {
         "word": "cc’äderi",
         "distinction": "",
-        "description": "definition",
+        "description": null,
         "formality": null,
-        "engtl": "translations",
+        "engtl": null,
         "categ": "categ",
         "related": ["relatedWord"]
     },
     {
         "word": "cc’ai",
         "distinction": "",
-        "description": "definition",
+        "description": null,
         "formality": null,
-        "engtl": "translations",
+        "engtl": null,
         "categ": "categ",
         "related": ["relatedWord"]
     },
     {
         "word": "cc’e",
         "distinction": "",
-        "description": "definition",
+        "description": null,
         "formality": null,
-        "engtl": "translations",
+        "engtl": null,
         "categ": "categ",
         "related": ["relatedWord"]
     },
     {
         "word": "centio",
         "distinction": "",
-        "description": "definition",
+        "description": null,
         "formality": null,
-        "engtl": "translations",
+        "engtl": null,
         "categ": "verb",
         "related": ["centiokari"]
     },
     {
         "word": "centiokari",
         "distinction": "",
-        "description": "definition",
+        "description": null,
         "formality": null,
-        "engtl": "translations",
+        "engtl": null,
         "categ": "noun",
         "related": ["centio"]
     },
@@ -349,5 +340,53 @@ const entries = [
         "engtl": null,
         "categ": "noun",
         "related": ["ihaeis"]
+    }, {
+        "word": "haraim",
+        "distinction": null,
+        "description": "spring season. name of a deity.",
+        "formality": null,
+        "engtl": null,
+        "categ": "noun",
+        "related": ["relatedWord"]
+    }, {
+        "word": "heja",
+        "distinction": null,
+        "description": "formal affirmation.",
+        "formality": "formal",
+        "engtl": "yes, aye",
+        "categ": "adverb",
+        "related": ["jia"]
+    }, {
+        "word": "jia",
+        "distinction": null,
+        "description": "informal affirmation.",
+        "formality": null,
+        "engtl": "yes, aye.",
+        "categ": "adverb",
+        "related": ["heja"]
+    }, {
+        "word": "hemasi",
+        "distinction": null,
+        "description": "to not acknowledge.",
+        "formality": null,
+        "engtl": "to ignore",
+        "categ": "verb",
+        "related": ["relatedWord"]
+    }, {
+        "word": "hierass",
+        "distinction": null,
+        "description": null,
+        "formality": null,
+        "engtl": "to give, to offer, to hand over",
+        "categ": "verb",
+        "related": ["relatedWord"]
+    }, {
+        "word": "example",
+        "distinction": null,
+        "description": null,
+        "formality": null,
+        "engtl": null,
+        "categ": "categ",
+        "related": ["relatedWord"]
     }
 ]
