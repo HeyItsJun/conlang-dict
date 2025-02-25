@@ -2,7 +2,7 @@ const table = document.getElementById("results");
 const input = document.getElementById("searchbar");
 const selector = document.getElementById("selector");
 
-document.getElementById("mainPageBtn").addEventListener("click", () => window.open("index.html", "_self"));
+document.getElementById("mainPageBtn").addEventListener("click", () => window.open("index.html", "_self")); // volver a index
 document.getElementById("wsystemsBtn").addEventListener("click", () => window.open("wsystems.html", "_self"));
 
 window.addEventListener("load", () => {
@@ -14,8 +14,9 @@ selector.addEventListener("mousedown", () => input.focus());
 
 function loadTable() {
     table.innerHTML = "";
+    // const filteredEntries = input.value.trim() !== "" ? entries.filter(entry => (entry[selector.value] || "").toLowerCase().startsWith(input.value.trim())) : entries;
     const filteredEntries = input.value.trim() !== "" ? entries.filter(entry => (entry[selector.value] || "").toLowerCase().startsWith(input.value.trim())) : entries;
-    filteredEntries.sort((entry1, entry2) => entry1.word > entry2.word);
+    filteredEntries.sort((entry1, entry2) => entry1.word.localeCompare);    // orden alfabético
     console.log(filteredEntries)
     if (filteredEntries.length === 0) {
         table.insertRow().insertCell().innerHTML = "No entries matching \"" + input.value.trim() + "\" found.";
