@@ -2,4 +2,4 @@
 
 Personal project. Local dictionary for the 'Sakoen' constructed language.
 
-Status: Work in progress.
+Status: work in progress (still adding words).
