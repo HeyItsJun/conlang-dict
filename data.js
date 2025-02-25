@@ -360,7 +360,7 @@ const entries = [
         "word": "jia",
         "distinction": null,
         "description": "informal affirmation.",
-        "formality": null,
+        "formality": "informal",
         "engtl": "yes, aye.",
         "categ": "adverb",
         "related": ["heja"]
