@@ -1,8 +1,8 @@
 @font-face {
-font-family: 'Lora Regular';
-src:
-local("Lora-Regular"),
-url("./resources/fonts/Lora-Regular.ttf");
+    font-family: 'Lora Regular';
+    src:
+        local("Lora-Regular"),
+        url("./resources/fonts/Lora-Regular.ttf");
 }
 
 * {
@@ -22,8 +22,10 @@ html {
     text-shadow: 2px 2px #c28f6d;
 }
 
-/* This should be changed to a button class or sth */
-input[type=button] {
+.btn {
+    background-color: #6a440b;
+    border: none;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -51,6 +53,10 @@ input[type=button] {
     width: 60%;
 }
 
+#selector {
+    font-weight: bold;
+}
+
 #results td {
     border: 1px solid #332002;
     padding: 15px;
@@ -64,11 +70,6 @@ input[type=button] {
     *  padding-right: 5%; 
     */
 }
-
-/* .allglyphs {
-    height: 100%;
-    width: 75%;
-} */
 
 #sakoen {
     width: 55%;
