@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -6,50 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakoen Dictionary</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./resources/icons/icon.ico">
+    <link rel="icon" href="resources/icons/icon.ico">
 </head>
 
 <body>
-    <h1 id="pagename">Sakoen Dictionary</h1>
-    <input type="button" value="Glossary" onclick="window.open('./glossary.html', '_self')">
-    <input type="button" value="Writing Systems" onclick="window.open('./wsystems.html', '_self')">
-    <br>
-    <br>
-    <label for="searchbar"></label>
-    <input id="searchbar" type="search" oninput="writeTable(dsearch, 'results')" placeholder="*rayitas giggles*" autofocus>
-    <br>
-    <br>
-    <table id="results"></table>
-    <script src="JSONToTable.js"></script>
-    <script>
-        function writeTable(filter, tableId) {
-            const table = document.getElementById(tableId);
-            const entries = filter instanceof Function ? filter(retrieveEntries()) : retrieveEntries();
-            table.innerHTML = "";
-            entries.forEach(entry => table.insertRow().insertCell().innerHTML = format(entry));
-        }
 
-        function format(entry) {
-            return [entry.word, "meaning: ", entry.description, "english: ", entry.engtl, "category: ", entry.categ].join("<br>");
-        }
+<h1 id="pagename">Sakoen Dictionary</h1>
 
-        function dsearch(entries) {
-            const input = document.getElementById("searchbar").value;
-            const fieldsToSearchBy = ["word", "description", "engtl"];
-            const filteredEntries = [];
-            entries.forEach(entry => fieldsToSearchBy.forEach(field => {
-                if ((entry[field] || "").toLowerCase().includes(input.toLowerCase())) {
-                    if (!filteredEntries.includes(entry)) {
-                        filteredEntries.push(entry);
-                    }
-                }
-            }));
-            return input !== "" ? filteredEntries : [];
-        }
-    </script>
-    <script>
-        window.onload = loadTable("./data.json", null);
-    </script>
+<input id="glossaryBtn" type="button" value="Glossary">
+<input id="wsystemsBtn" type="button" value="Writing Systems">
+
+<label for="searchbar"></label>
+<input id="searchbar" type="search" placeholder="*rayitas giggles*">
+
+<table id="results"></table>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
 </body>
 
 </html>
