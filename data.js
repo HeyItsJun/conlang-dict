@@ -270,21 +270,84 @@ const entries = [
         "related": ["lakësodai"]
     },
     {
-        "word": "word",
+        "word": "gamui",
         "distinction": null,
         "description": null,
         "formality": null,
-        "engtl": null,
-        "categ": "categ",
+        "engtl": "never",
+        "categ": "adverb",
         "related": ["relatedWord"]
     },
     {
-        "word": "word",
+        "word": "garihec",
         "distinction": null,
         "description": null,
         "formality": null,
-        "engtl": null,
-        "categ": "categ",
+        "engtl": "glad, delighted",
+        "categ": "adjective",
         "related": ["relatedWord"]
+    },
+    {
+        "word": "ge'ko",
+        "distinction": null,
+        "description": "to wish, or to wish something for someone (i.e: a prompt recovery).",
+        "formality": null,
+        "engtl": "to wish",
+        "categ": "verb",
+        "related": ["relatedWord"]
+    },
+    {
+        "word": "gekai",
+        "distinction": null,
+        "description": "to desire something (an object or animal) or someone.",
+        "formality": null,
+        "engtl": "to want, to covet",
+        "categ": "verb",
+        "related": ["relatedWord"]
+    },
+    {
+        "word": "gindeikot",
+        "distinction": null,
+        "description": null,
+        "formality": null,
+        "engtl": "barrier, limit.",
+        "categ": "noun",
+        "related": ["relatedWord"]
+    },
+    {
+        "word": "hailein",
+        "distinction": null,
+        "description": "one of the denominations for the infernal or lower realm, in Ikaihaeis.",
+        "formality": null,
+        "engtl": null,
+        "categ": "noun",
+        "related": ["ikobekari, ihaeis, ikaihaeis"]
+    },
+    {
+        "word": "ikobekari",
+        "distinction": null,
+        "description": "one of the denominations for the infernal or lower realm, in Sakoen.",
+        "formality": null,
+        "engtl": null,
+        "categ": "noun",
+        "related": ["hailein"]
+    },
+    {
+        "word": "ihaeis",
+        "distinction": null,
+        "description": "the world's Ancient Era, according to the people of Lakeiros.",
+        "formality": null,
+        "engtl": "ancient era",
+        "categ": "noun",
+        "related": ["ikaihaeis"]
+    },
+    {
+        "word": "ikaihaeis",
+        "distinction": null,
+        "description": "name of the 'Ancient tongue', both in Sakoen and in itself.",
+        "formality": null,
+        "engtl": null,
+        "categ": "noun",
+        "related": ["ihaeis"]
     }
 ]
