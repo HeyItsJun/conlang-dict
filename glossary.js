@@ -15,6 +15,8 @@ selector.addEventListener("mousedown", () => input.focus());
 function loadTable() {
     table.innerHTML = "";
     const filteredEntries = input.value.trim() !== "" ? entries.filter(entry => (entry[selector.value] || "").toLowerCase().startsWith(input.value.trim())) : entries;
+    filteredEntries.sort((entry1, entry2) => entry1.word > entry2.word);
+    console.log(filteredEntries)
     if (filteredEntries.length === 0) {
         table.insertRow().insertCell().innerHTML = "No entries matching \"" + input.value.trim() + "\" found.";
     } else {
