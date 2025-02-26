@@ -67,12 +67,12 @@ html {
 
 #searchbar {
     border-radius: 5px;
+    display: block;
     height: 25px;
-    width: 60%;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    margin-bottom: 20px;
+    width: 60%;
 }
 
 #searchbar:focus {
