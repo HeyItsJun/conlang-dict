@@ -6,7 +6,10 @@ const input = document.getElementById("searchbar");
 document.getElementById("glossaryBtn").addEventListener("click", () => window.open("glossary.html", "_self"));
 document.getElementById("wsystemsBtn").addEventListener("click", () => window.open("wsystems.html", "_self"));
 
-window.addEventListener("load", () => input.focus());
+window.addEventListener("load", () => {
+    input.value = "";
+    input.focus();
+});
 input.addEventListener("keyup", () => loadTable());
 
 function loadTable() {
@@ -26,5 +29,29 @@ function loadTable() {
 }
 
 function format(entry) {
-    return [entry.word, "meaning: ", entry.description, "english: ", entry.engtl, "category: ", entry.categ].join("<br>");
+    const format = document.createElement("div");
+
+    addElement("h3", capitalizeFirst(entry.word), format);
+    addElement("p", capitalizeFirst(entry.description), format);
+    addElement("b", "English translation: ", format);
+    addElement("i", entry.engtl, format);
+    format.appendChild(document.createElement("br"));
+    addElement("b", "Category: ", format);
+    addElement("small", capitalizeFirst(entry.categ), format);
+
+    return format.innerHTML;
+}
+
+function capitalizeFirst(str) {
+    try {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    } catch (error) {
+        return "";
+    }
+}
+
+function addElement(element, textContent, dest) {
+    const child = document.createElement(element);
+    child.textContent = textContent;
+    dest.appendChild(child);
 }
