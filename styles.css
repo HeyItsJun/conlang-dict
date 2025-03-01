@@ -17,11 +17,6 @@ html {
     height: 100%;
 }
 
-#pagename {
-    font-style: italic;
-    text-shadow: 2px 2px #c28f6d;
-}
-
 .btn {
     background-color: #6a440b;
     border: none;
@@ -29,18 +24,17 @@ html {
     margin-bottom: 20px;
 }
 
-#searchbar {
-    border-radius: 5px;
-    height: 25px;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.allglyphs {
     margin-bottom: 20px;
 }
 
-#searchbar:focus {
-    outline: 2px solid #c28f6d;
+#aerende {
+    width: 35%;
+}
+
+#pagename {
+    font-style: italic;
+    text-shadow: 2px 2px #c28f6d;
 }
 
 #results {
@@ -51,10 +45,6 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-}
-
-#selector {
-    font-weight: bold;
 }
 
 #results td {
@@ -75,6 +65,20 @@ html {
     width: 55%;
 }
 
-#aerende {
-    width: 35%;
+#searchbar {
+    border-radius: 5px;
+    display: block;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#searchbar:focus {
+    outline: 2px solid #c28f6d;
+}
+
+#selector {
+    font-weight: bold;
 }
