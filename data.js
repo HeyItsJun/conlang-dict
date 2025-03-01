@@ -1656,7 +1656,7 @@ const entries = [
       "categ": "adjective"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented adjective meaning bad or evil.",
       "formality": null,
@@ -1664,7 +1664,7 @@ const entries = [
       "categ": "adjective"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented adjective meaning long in physical length or duration.",
       "formality": null,
@@ -1672,7 +1672,7 @@ const entries = [
       "categ": "adjective"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented adjective meaning nice or good in an agreeable way.",
       "formality": null,
@@ -1680,7 +1680,7 @@ const entries = [
       "categ": "adjective"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented adjective meaning short, referring to limited length or duration.",
       "formality": null,
@@ -1688,7 +1688,7 @@ const entries = [
       "categ": "adjective"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented adjective meaning tall, indicating greater height.",
       "formality": null,
@@ -1696,7 +1696,7 @@ const entries = [
       "categ": "adjective"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented adjective meaning wrong, incorrect, or mistaken.",
       "formality": null,
@@ -1704,7 +1704,7 @@ const entries = [
       "categ": "adjective"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented particle that indicates a sure or inevitable event.",
       "formality": null,
@@ -1712,7 +1712,7 @@ const entries = [
       "categ": "particle"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented particle used to denote an impossible or unlikely event.",
       "formality": null,
@@ -1720,7 +1720,7 @@ const entries = [
       "categ": "particle"
     },
     {
-      "word": null,
+      "word": "null",
       "distinction": null,
       "description": "Invented particle suggesting that something is possible or even somewhat probable.",
       "formality": null,
