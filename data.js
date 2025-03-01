@@ -1726,5 +1726,29 @@ const entries = [
       "formality": null,
       "engtl": "possible, probable",
       "categ": "particle"
+    },
+    {
+      "word": "kohs",
+      "distinction": null,
+      "description": "Suggests emptiness or nothingness.",
+      "formality": null,
+      "engtl": "void",
+      "categ": "noun"
+    },
+    {
+      "word": "kohsar",
+      "distinction": null,
+      "description": "'Of the void', kohs (void) + ar (of the, from).",
+      "formality": null,
+      "engtl": null,
+      "categ": "noun"
+    },
+    {
+      "word": "word",
+      "distinction": null,
+      "description": null,
+      "formality": null,
+      "engtl": null,
+      "categ": "categ"
     }
   ];
