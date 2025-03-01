@@ -1656,73 +1656,73 @@ const entries = [
       "categ": "adjective"
     },
     {
-      "word": "null",
+      "word": "keras",
       "distinction": null,
-      "description": "Invented adjective meaning bad or evil.",
+      "description": "Adjective meaning bad or evil.",
       "formality": null,
       "engtl": "bad, evil",
       "categ": "adjective"
     },
     {
-      "word": "null",
+      "word": "sujul",
       "distinction": null,
-      "description": "Invented adjective meaning long in physical length or duration.",
+      "description": "Adjective meaning long in physical length or duration.",
       "formality": null,
       "engtl": "long",
       "categ": "adjective"
     },
     {
-      "word": "null",
+      "word": "ramc'en",
       "distinction": null,
-      "description": "Invented adjective meaning nice or good in an agreeable way.",
+      "description": "Adjective meaning nice or good in an agreeable way.",
       "formality": null,
       "engtl": "nice, good",
       "categ": "adjective"
     },
     {
-      "word": "null",
+      "word": "bosot",
       "distinction": null,
-      "description": "Invented adjective meaning short, referring to limited length or duration.",
+      "description": "Adjective meaning short, referring to limited length or duration.",
       "formality": null,
       "engtl": "short",
       "categ": "adjective"
     },
     {
-      "word": "null",
+      "word": "ulkso",
       "distinction": null,
-      "description": "Invented adjective meaning tall, indicating greater height.",
+      "description": "Adjective meaning tall, indicating greater height.",
       "formality": null,
       "engtl": "tall",
       "categ": "adjective"
     },
     {
-      "word": "null",
+      "word": "zis",
       "distinction": null,
-      "description": "Invented adjective meaning wrong, incorrect, or mistaken.",
+      "description": "Adjective meaning wrong, incorrect, or mistaken.",
       "formality": null,
       "engtl": "wrong, incorrect, mistaken",
       "categ": "adjective"
     },
     {
-      "word": "null",
+      "word": "ira",
       "distinction": null,
-      "description": "Invented particle that indicates a sure or inevitable event.",
+      "description": "Particle that indicates a sure or inevitable event.",
       "formality": null,
       "engtl": "sure event",
       "categ": "particle"
     },
     {
-      "word": "null",
+      "word": "nair",
       "distinction": null,
-      "description": "Invented particle used to denote an impossible or unlikely event.",
+      "description": "Particle used to denote an impossible or unlikely event.",
       "formality": null,
       "engtl": "impossible event",
       "categ": "particle"
     },
     {
-      "word": "null",
+      "word": "mir",
       "distinction": null,
-      "description": "Invented particle suggesting that something is possible or even somewhat probable.",
+      "description": "Particle suggesting that something is possible or even somewhat probable.",
       "formality": null,
       "engtl": "possible, probable",
       "categ": "particle"
