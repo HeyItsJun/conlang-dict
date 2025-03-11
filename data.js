@@ -1160,14 +1160,6 @@ const entries = [
       "categ": "noun, expression"
     },
     {
-      "word": "rikëikacc’ar laive sein ra o ipoc ge’ko vhoi",
-      "distinction": null,
-      "description": "A full expression used as a birthday wish, literally meaning 'to be happy during your birthday, to you, I wish'.",
-      "formality": null,
-      "engtl": "happy birthday",
-      "categ": "expression"
-    },
-    {
       "word": "rikej",
       "distinction": null,
       "description": "Noun meaning 'day of sun' or 'sunny day', used to refer to one’s birthday.",
