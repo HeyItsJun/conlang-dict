@@ -376,11 +376,18 @@ const entries = [
       "categ": "noun"
     },
     {
-      "word": "ikoc / vegorec",
+      "word": "ikoc",
       "distinction": null,
-      "description": "Formal pronoun for 'I' / 'myself'.",
+      "description": "Formal pronoun for 'I'.",
       "formality": "formal",
       "engtl": "I, me",
+      "categ": "pronoun"
+    },{
+      "word": "vegorec",
+      "distinction": null,
+      "description": "Formal pronoun for 'myself'.",
+      "formality": "formal",
+      "engtl": null,
       "categ": "pronoun"
     },
     {
@@ -392,31 +399,55 @@ const entries = [
       "categ": "noun"
     },
     {
-      "word": "ilakoc / darej",
+      "word": "ilakoc",
       "distinction": null,
-      "description": "Formal pronoun for 'we' / 'us'.",
+      "description": "Formal pronoun for 'we'.",
       "formality": "formal",
       "engtl": "we, us",
       "categ": "pronoun"
     },
     {
-      "word": "ileroc / durej",
+      "word": "darej",
       "distinction": null,
-      "description": "Formal pronoun for 'they' / 'them'.",
+      "description": "Formal pronoun for 'us'.",
+      "formality": "formal",
+      "engtl": null,
+      "categ": "pronoun"
+    },
+    {
+      "word": "ileroc",
+      "distinction": null,
+      "description": "Formal pronoun for 'they'.",
       "formality": "formal",
       "engtl": "they, them",
       "categ": "pronoun"
     },
     {
-      "word": "ilipoc / dorej",
+      "word": "durej",
       "distinction": null,
-      "description": "Formal pronoun for 'you' / 'youself' (plural or informal group addressed formally).",
+      "description": "Formal pronoun for 'them'.",
+      "formality": "formal",
+      "engtl": null,
+      "categ": "pronoun"
+    },
+    {
+      "word": "ilipoc",
+      "distinction": null,
+      "description": "Formal pronoun for 'you' (plural).",
       "formality": "formal",
       "engtl": "you",
       "categ": "pronoun"
     },
     {
-      "word": "ipoc / venorec",
+      "word": "dorej",
+      "distinction": null,
+      "description": "Formal pronoun for 'you' (plural) (accusative).",
+      "formality": "formal",
+      "engtl": null,
+      "categ": "pronoun"
+    },
+    {
+      "word": "ipoc",
       "distinction": null,
       "description": "Formal pronoun for 'you' (singular).",
       "formality": "formal",
@@ -424,11 +455,27 @@ const entries = [
       "categ": "pronoun"
     },
     {
-      "word": "iroc / velorec",
+      "word": "venorec",
+      "distinction": null,
+      "description": "Formal pronoun for 'you' (singular) (accusative).",
+      "formality": "formal",
+      "engtl": null,
+      "categ": "pronoun"
+    },
+    {
+      "word": "iroc",
       "distinction": null,
       "description": "Formal pronoun for third-person singular, referring to he or she (and their object forms).",
       "formality": "formal",
       "engtl": "he, him, she, her",
+      "categ": "pronoun"
+    },
+    {
+      "word": "velorec",
+      "distinction": null,
+      "description": "Formal pronoun for third-person singular (accusative), referring to he or she (and their object forms).",
+      "formality": "formal",
+      "engtl": null,
       "categ": "pronoun"
     },
     {
@@ -608,11 +655,19 @@ const entries = [
       "categ": "proper noun"
     },
     {
-      "word": "koc / egorec",
+      "word": "koc",
       "distinction": null,
-      "description": "Informal pronoun for 'I' / 'myself'.",
+      "description": "Informal pronoun for 'I'.",
       "formality": "informal",
       "engtl": "I, me",
+      "categ": "pronoun"
+    },
+    {
+      "word": "egorec",
+      "distinction": null,
+      "description": "Informal pronoun for 'myself'.",
+      "formality": "informal",
+      "engtl": null,
       "categ": "pronoun"
     },
     {
