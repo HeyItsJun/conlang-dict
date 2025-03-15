@@ -380,14 +380,14 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for 'I'.",
       "formality": "formal",
-      "engtl": "I, me",
+      "engtl": "I",
       "categ": "pronoun"
     },{
       "word": "vegorec",
       "distinction": null,
       "description": "Formal pronoun for 'myself'.",
       "formality": "formal",
-      "engtl": null,
+      "engtl": "myself",
       "categ": "pronoun"
     },
     {
@@ -403,7 +403,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for 'we'.",
       "formality": "formal",
-      "engtl": "we, us",
+      "engtl": "we",
       "categ": "pronoun"
     },
     {
@@ -411,7 +411,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for 'us'.",
       "formality": "formal",
-      "engtl": null,
+      "engtl": "us",
       "categ": "pronoun"
     },
     {
@@ -419,7 +419,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for 'they'.",
       "formality": "formal",
-      "engtl": "they, them",
+      "engtl": "they",
       "categ": "pronoun"
     },
     {
@@ -427,7 +427,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for 'them'.",
       "formality": "formal",
-      "engtl": null,
+      "engtl": "them",
       "categ": "pronoun"
     },
     {
@@ -435,7 +435,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for 'you' (plural).",
       "formality": "formal",
-      "engtl": "you",
+      "engtl": "you (pl)",
       "categ": "pronoun"
     },
     {
@@ -443,7 +443,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for 'you' (plural) (accusative).",
       "formality": "formal",
-      "engtl": null,
+      "engtl": "you (pl, accusative)",
       "categ": "pronoun"
     },
     {
@@ -459,7 +459,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for 'you' (singular) (accusative).",
       "formality": "formal",
-      "engtl": null,
+      "engtl": "you (sg, accusative)",
       "categ": "pronoun"
     },
     {
@@ -467,7 +467,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for third-person singular, referring to he or she (and their object forms).",
       "formality": "formal",
-      "engtl": "he, him, she, her",
+      "engtl": "he, she, it",
       "categ": "pronoun"
     },
     {
@@ -475,7 +475,7 @@ const entries = [
       "distinction": null,
       "description": "Formal pronoun for third-person singular (accusative), referring to he or she (and their object forms).",
       "formality": "formal",
-      "engtl": null,
+      "engtl": "him, her, it (accusative)",
       "categ": "pronoun"
     },
     {
@@ -659,15 +659,15 @@ const entries = [
       "distinction": null,
       "description": "Informal pronoun for 'I'.",
       "formality": "informal",
-      "engtl": "I, me",
+      "engtl": "I",
       "categ": "pronoun"
     },
     {
       "word": "egorec",
       "distinction": null,
-      "description": "Informal pronoun for 'myself'.",
+      "description": "Informal pronoun for 'me'.",
       "formality": "informal",
-      "engtl": null,
+      "engtl": "me",
       "categ": "pronoun"
     },
     {
@@ -727,11 +727,19 @@ const entries = [
       "categ": "noun"
     },
     {
-      "word": "lakoc / ekoc",
+      "word": "lakoc",
       "distinction": null,
-      "description": "Informal pronoun for 'we' / 'us'.",
+      "description": "Informal pronoun for 'we'.",
       "formality": "informal",
-      "engtl": "we, us",
+      "engtl": "we",
+      "categ": "pronoun"
+    },
+    {
+      "word": "ekoc",
+      "distinction": null,
+      "description": "Informal pronoun for 'us'.",
+      "formality": "informal",
+      "engtl": "us",
       "categ": "pronoun"
     },
     {
@@ -743,11 +751,19 @@ const entries = [
       "categ": "numeral"
     },
     {
-      "word": "leroc / eroc",
+      "word": "leroc",
       "distinction": null,
-      "description": "Informal pronoun for 'they' / 'them'.",
+      "description": "Informal pronoun for 'they'.",
       "formality": "informal",
       "engtl": "they, them",
+      "categ": "pronoun"
+    },
+    {
+      "word": "eroc",
+      "distinction": null,
+      "description": "Informal pronoun for 'them'.",
+      "formality": "informal",
+      "engtl": "them",
       "categ": "pronoun"
     },
     {
@@ -759,11 +775,19 @@ const entries = [
       "categ": "adverb"
     },
     {
-      "word": "lipoc / epoc",
+      "word": "lipoc",
       "distinction": null,
-      "description": "Informal pronoun for 'you' (addressing a group).",
+      "description": "Informal pronoun for 'you' (plural).",
       "formality": "informal",
       "engtl": "you",
+      "categ": "pronoun"
+    },
+    {
+      "word": "epoc",
+      "distinction": null,
+      "description": "Informal pronoun for 'you' (plural) (accusative).",
+      "formality": "informal",
+      "engtl": "you (pl, accusative)",
       "categ": "pronoun"
     },
     {
@@ -1103,12 +1127,20 @@ const entries = [
       "categ": "numeral"
     },
     {
-      "word": "poc / enorec",
+      "word": "poc",
       "distinction": null,
-      "description": "Informal pronoun for 'you' / 'yourself'.",
+      "description": "Informal pronoun for 'you' (singular).",
       "formality": "informal",
-      "engtl": "you",
+      "engtl": "you (sg)",
       "categ": "pronoun"
+    },
+    {
+      "word": "enorec",
+      "distinction": null,
+      "description": "Informal pronoun for 'you' (singular) (accusative).",
+      "formality": "informal",
+      "engtl": "you (sg, accusative)",
+      "categ": "categ"
     },
     {
       "word": "possae",
@@ -1223,11 +1255,19 @@ const entries = [
       "categ": "noun"
     },
     {
-      "word": "roc / elorec",
+      "word": "roc",
       "distinction": null,
-      "description": "Informal pronoun for he, him, she, or her.",
+      "description": "Informal pronoun for 'he', 'she', 'it'.",
       "formality": "informal",
-      "engtl": "he, him, she, her",
+      "engtl": "he, she, it",
+      "categ": "pronoun"
+    },
+    {
+      "word": "elorec",
+      "distinction": null,
+      "description": "Informal pronoun for 'him', 'her', 'it' (accusative).",
+      "formality": "informal",
+      "engtl": "him, her, it (accusative)",
       "categ": "pronoun"
     },
     {
@@ -1255,11 +1295,19 @@ const entries = [
       "categ": "noun"
     },
     {
-      "word": "saroj / alöih",
+      "word": "saroj",
       "distinction": "non-living",
-      "description": "Pronoun used for non-human objects, meaning 'it' / 'itself'.",
+      "description": "Pronoun used for non-human objects, meaning 'it' (singular).",
       "formality": null,
-      "engtl": "it, itself",
+      "engtl": "it (sg)",
+      "categ": "pronoun"
+    },
+    {
+      "word": "alöih",
+      "distinction": "non-living",
+      "description": "Pronoun used for non-human objects, meaning 'it' (singular) (accusative).",
+      "formality": null,
+      "engtl": "it (sg) (accusative)",
       "categ": "pronoun"
     },
     {
@@ -1367,11 +1415,19 @@ const entries = [
       "categ": "expression"
     },
     {
-      "word": "suroj / ulöih",
+      "word": "suroj",
       "distinction": "non-living",
-      "description": "Pronoun for non-human objects, meaning 'they' / 'themselves'.",
+      "description": "Pronoun for non-human objects, meaning 'it' (plural).",
       "formality": null,
-      "engtl": "they, themselves",
+      "engtl": "it (pl)",
+      "categ": "pronoun"
+    },
+    {
+      "word": "ulöih",
+      "distinction": "non-living",
+      "description": "Pronoun for non-human objects, meaning 'it' (pl) (accusative).",
+      "formality": null,
+      "engtl": "it (pl, accusative)",
       "categ": "pronoun"
     },
     {
@@ -1639,19 +1695,35 @@ const entries = [
       "categ": "particle"
     },
     {
-      "word": "wagi / gadi",
+      "word": "wagi",
       "distinction": "living",
-      "description": "Pronoun used for animals in the third-person plural, meaning 'they', 'themselves', or 'itselves (for an animal)'.",
+      "description": "Pronoun used for animals in the third-person plural, meaning 'they'.",
       "formality": null,
-      "engtl": "they, themselves, itselves (for an animal)",
+      "engtl": "it, they (for an animal)",
       "categ": "pronoun"
     },
     {
-      "word": "wagus / gadu",
+      "word": "gadi",
       "distinction": "living",
-      "description": "Pronoun used for a single animal, meaning 'it' / 'itself'.",
+      "description": "Pronoun used for animals in the third-person plural, meaning 'them', 'themselves', 'itselves'.",
       "formality": null,
-      "engtl": "it, itself (for an animal)",
+      "engtl": "them, themselves, itselves (for an animal)",
+      "categ": "pronoun"
+    },
+    {
+      "word": "wagus",
+      "distinction": "living",
+      "description": "Pronoun used for a single animal, meaning 'it'.",
+      "formality": null,
+      "engtl": "it (for an animal)",
+      "categ": "pronoun"
+    },
+    {
+      "word": "gadu",
+      "distinction": "living",
+      "description": "pronoun for a single animal, meaning 'it' or 'itself' (accusative).",
+      "formality": null,
+      "engtl": "it, itslef (for an animal)",
       "categ": "pronoun"
     },
     {
