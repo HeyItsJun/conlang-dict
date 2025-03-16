@@ -1140,7 +1140,7 @@ const entries = [
       "description": "Informal pronoun for 'you' (singular) (accusative).",
       "formality": "informal",
       "engtl": "you (sg, accusative)",
-      "categ": "categ"
+      "categ": "pronoun"
     },
     {
       "word": "possae",
