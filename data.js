@@ -1869,5 +1869,13 @@ const entries = [
       "formality": null,
       "engtl": null,
       "categ": "categ"
+    },
+    {
+      "word": "ika",
+      "distinction": null,
+      "description": "Particle that denotes the relation between a word and the following one. Mainly use for adjectives (the word) and the noun they refer to (the following one). Use is similar to suffix '-ar' in Ikaihaeis. Alt: 'sika' if previous word ends in '-o'.",
+      "formality": null,
+      "engtl": null,
+      "categ": "particle"
     }
   ];
